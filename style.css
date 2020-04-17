@@ -1,0 +1,115 @@
+body{
+    background-image: url('Images/desktop-bg-home.jpg');
+    background-color: #1a1a1c;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 768px) {
+    body {
+        background-image: url('Images/mobile-bg-home.jpg');
+        background-position: top;
+    }
+}
+
+h1, h2, h3, p, btn, .dropdown-item {
+    font-family: 'Montserrat', sans-serif; 
+}
+h1 {
+    font-size: 36pt;
+    color: white;
+    margin-top: 100px;
+}
+.stat-info{
+    font-size: 12pt;
+    margin-top: 12px;
+    margin-bottom: 35px;
+}
+.stat-info-primary{
+    font-size: 16pt;
+    margin-top: 12px;
+}
+.dropdown-item {
+    font-weight: 300;
+    font-size: 10pt;
+    color: black;
+}
+@media (max-width: 768px) {
+    h1 {
+        margin-top: 40px;
+        font-size: 28pt;
+    }
+    .stat-info {
+        margin-top: 6px;
+    }
+    .stat-info-primary {
+        font-size: 14pt;
+        margin-top: 6px;
+    }
+}
+
+.stats-row {
+    background-color:  rgba(255, 255, 255, 0.6);
+    padding: 40px 40px 30px;
+    margin-top: 40px;
+    text-align: center;
+    padding: 20px;
+    font-size: 34px;
+    font-weight: bold;
+    position: relative;
+}
+
+.latestInfo{
+    margin-top: 10px;
+}
+
+.btn {
+    color: white;
+    background-color: rgb(255, 71, 58);
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+    margin: 0px;
+    font-size: 12pt;
+}
+.btn:hover {
+    opacity: 0.7;
+}
+
+.dropdown-row{
+    position: absolute;
+    bottom: 5px;
+    left: 60px;
+    display: flex;
+}
+
+.dropdown-label{
+    font-weight: 300;
+    font-size: 12pt;
+    text-align: right;
+    position: relative;
+    bottom: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.btn-secondary{
+    background-color: rgba(0, 0, 0, 0);
+    color: black;
+    font-weight: 300;
+    position: relative;
+    bottom: 6px;
+    margin-left: 5px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+}
+
+.btn-secondary:hover{
+    background-color: rgba(0, 0, 0, 0);
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+.btn-secondary:active{
+    background-color: rgba(0, 0, 0, 0);
+}

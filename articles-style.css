@@ -1,0 +1,81 @@
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('Images/desktop-bg-home.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 40px;
+}
+
+.page-heading {
+    background-color:  rgba(255, 255, 255, 0.6);
+    padding: 40px 40px 30px;
+
+}
+
+@media (max-width: 768px) {
+    .masthead {
+        background-image: url('Images/mobile-bg-home.jpg');
+    }
+
+}
+
+h1, .lead, .card-title, .card-text, .navbar-brand, .nav-link {
+    font-family: 'Montserrat', sans-serif; 
+}
+
+h1 {
+    font-size: 28pt;
+}
+
+.lead {
+    font-size: 16pt;
+}
+.card-title {
+    font-weight: 400;
+    font-size: 14pt;
+    margin-bottom: 30px;
+}
+
+.card-text {
+    font-weight: 300;
+    font-size: 12pt;
+}
+
+.small, .nav-link {
+    font-size: 10pt;
+}
+
+#date {
+    font-weight: 400;
+    font-size: 14pt;
+}
+
+.card {
+    min-width: 288px;
+    margin-bottom: 20px !important;
+    box-shadow: 0px 0px 10px #888888;
+    border: none;
+    cursor: pointer;
+    position: relative;
+}
+
+.card:hover {
+    box-shadow: 0px 0px 20px #707070;
+    color: white;
+    background-color: rgb(255, 71, 58);
+}
+
+.card-img-top {
+    min-height: 200px;
+    background-color: rgb(158, 158, 158);
+    border: none;
+    border-top-left-radius: calc(.35rem - 1px);
+    border-top-right-radius: calc(.35rem - 1px);
+}
+
+.card-bottom {
+    position: absolute;
+    bottom: 10px;
+}
